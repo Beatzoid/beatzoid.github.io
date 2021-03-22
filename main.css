@@ -373,111 +373,6 @@ li {
 
 /*End services*/
 
-/*Start timeline*/
-
-.timeline ul {
-    border-left: 4px solid #ffe838;
-    border-radius: 0.8rem;
-    background-color: rgba(0, 0, 0, 0.05);
-    margin: 0 auto;
-    position: relative;
-    padding: 5rem;
-    list-style: none;
-    text-align: left;
-    width: 70%;
-}
-
-.timeline h1 {
-    font-size: 2rem;
-    text-transform: uppercase;
-    font-weight: 300;
-    margin-bottom: 1rem;
-    opacity: 0.3rem;
-}
-
-.timeline .date {
-    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
-    margin-bottom: 1rem;
-    padding-bottom: 1rem;
-    position: relative;
-}
-
-.timeline .date:last-of-type {
-    padding-bottom: 0;
-    margin-bottom: 0;
-    border: none;
-}
-
-.timeline .date::before,
-.timeline .date::after {
-    position: absolute;
-    display: block;
-    top: 50%;
-    transform: translateY(-50%);
-}
-
-.timeline .date::before {
-    content: attr(data-date);
-    left: -21rem;
-    text-align: right;
-    min-width: 12rem;
-    font-size: 1.5rem;
-}
-
-.timeline .date::after {
-    content: "";
-    box-shadow: 0 0 0 4px #fd57bf;
-    border-radius: 100%;
-    left: -8rem;
-    height: 1.5rem;
-    width: 1.5rem;
-    background-color: #313534;
-}
-
-/*End timeline*/
-
-/*Start contact*/
-
-.contact {
-    background-color: #221e3f;
-}
-
-form {
-    width: 70%;
-    margin: 0 auto;
-}
-
-form label {
-    font-size: 1.5rem;
-}
-
-input,
-select,
-textarea {
-    width: 100%;
-    padding: 1rem;
-    margin-top: 5px;
-    border: none;
-    outline-color: #fd57bf;
-}
-
-input[type="submit"] {
-    width: initial;
-    background-color: #fd57bf;
-    color: #eee;
-    padding: 1rem 2rem;
-    border-radius: 0.8rem;
-    cursor: pointer;
-    transition: background-color 650ms;
-}
-
-input[type="submit"]:hover {
-    color: #221e3f;
-    background-color: #ffe838;
-}
-
-/*End contact*/
-
 /*Start footer*/
 
 .copyright {
@@ -528,6 +423,16 @@ input[type="submit"]:hover {
 }
 
 /*End animations*/
+
+/* Start other */
+
+.bee7-img {
+    border-radius: 50%;
+    max-width: 300px;
+    max-height: 300px;
+}
+
+/* End other */
 
 /*Start media queries*/
 
