@@ -1,6 +1,6 @@
-/*Start global*/
+/* Start global*/
 
-@font-face {
+/* @font-face {
     font-family: "The Historia Demo";
     src: url("fonts/thehistoriademo-webfont.woff2") format("woff2"),
         url("fonts/thehistoriademo-webfont.woff") format("woff");
@@ -49,7 +49,7 @@ img {
 
 /*Start reusable*/
 
-.container {
+/* .container {
     width: 90%;
     max-width: 120rem;
     height: 100%;
@@ -101,13 +101,13 @@ img {
 
 .has-margin-right {
     margin-right: 5rem;
-}
+} */
 
 /*End reusable*/
 
 /*Start header*/
 
-header {
+/* header {
     width: 100%;
     height: 100vh;
 }
@@ -228,13 +228,13 @@ li {
 .landing-text h6 {
     font-size: 2rem;
     font-weight: 400;
-}
+} */
 
 /*End header*/
 
 /*Start about*/
 
-.about .container {
+/* .about .container {
     display: flex;
     align-items: center;
     justify-items: center;
@@ -277,13 +277,13 @@ li {
 
 .fa-github-square:hover {
     color: #4183c4;
-}
+} */
 
 /*End about*/
 
 /*Start services*/
 
-.my-skills {
+/* .my-skills {
     margin-top: 10rem;
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
@@ -320,13 +320,13 @@ li {
     font-size: 5rem;
     margin: auto;
     transform: rotate(-45deg);
-}
+} */
 
 /*End services*/
 
 /*Start portfolio*/
 
-.portfolio-item {
+/* .portfolio-item {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -369,13 +369,13 @@ li {
 
 .portfolio-description .cta:hover {
     color: #2f67cd;
-}
+} */
 
 /*End services*/
 
 /*Start footer*/
 
-.copyright {
+/* .copyright {
     width: 100%;
     text-align: center;
     background-color: #16162d;
@@ -404,13 +404,13 @@ li {
 
 .copyright p {
     font-size: 1.4rem;
-}
+} */
 
 /*End footer*/
 
 /*Start animations*/
 
-@keyframes pulse {
+/* @keyframes pulse {
     0% {
         box-shadow: 0 0 0 0 rgba(253, 87, 191, 0.99);
     }
@@ -420,23 +420,23 @@ li {
     100% {
         box-shadow: 0 0 0 0 rgba(253, 87, 191, 0);
     }
-}
+} */
 
 /*End animations*/
 
 /* Start other */
 
-.bee7-img {
+/* .bee7-img {
     border-radius: 50%;
     max-width: 300px;
     max-height: 300px;
-}
+} */
 
 /* End other */
 
 /*Start media queries*/
 
-@media screen and (max-width: 768px) {
+/* @media screen and (max-width: 768px) {
     body {
         background: url("images/sitebg2.jpg") no-repeat center fixed;
         background-size: cover;
@@ -555,6 +555,6 @@ li {
     .up {
         right: 2rem;
     }
-}
+} */
 
-/*End media queries*/
+/*End media queries */

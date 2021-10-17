@@ -1,4 +1,3 @@
-[![CodeFactor](https://www.codefactor.io/repository/github/beatzoid/beatzoid.github.io/badge)](https://www.codefactor.io/repository/github/beatzoid/beatzoid.github.io)
-# beatzoid.github.io
+# Moved
 
-My github.io website
+I have rewrote my website and moved it to [this](https://github.com/Beatzoid/portfolio/) repo. This project will redirect to the new URL
